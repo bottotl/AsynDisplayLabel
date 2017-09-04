@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JFTTableViewController.h
 //  AsynDisplayLabel-objc
 //
 //  Created by jft0m on 2017/8/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JFTTableViewController : UITableViewController
 
 @end
-

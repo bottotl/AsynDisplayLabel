@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		288D084D1F4EA77700849A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D084C1F4EA77700849A2D /* AppDelegate.m */; };
-		288D08501F4EA77700849A2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D084F1F4EA77700849A2D /* ViewController.m */; };
 		288D08531F4EA77700849A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D08511F4EA77700849A2D /* Main.storyboard */; };
 		288D08551F4EA77700849A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288D08541F4EA77700849A2D /* Assets.xcassets */; };
 		288D08581F4EA77700849A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D08561F4EA77700849A2D /* LaunchScreen.storyboard */; };
 		288D085B1F4EA77700849A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D085A1F4EA77700849A2D /* main.m */; };
+		288D08631F4EA80600849A2D /* JFTAsyncTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D08621F4EA80600849A2D /* JFTAsyncTextLabel.m */; };
+		288D08661F4EB06E00849A2D /* JFTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288D08651F4EB06E00849A2D /* JFTTableViewController.m */; };
+		289732CF1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732CE1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.m */; };
+		289732D21F5CF26E00A92826 /* JFTTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D11F5CF26E00A92826 /* JFTTextLayout.m */; };
+		289732D51F5CF6AE00A92826 /* JFTCTStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D41F5CF6AE00A92826 /* JFTCTStorage.m */; };
+		289732D81F5CFBFD00A92826 /* JFTCTContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D71F5CFBFD00A92826 /* JFTCTContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		288D08481F4EA77700849A2D /* AsynDisplayLabel-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsynDisplayLabel-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D084B1F4EA77700849A2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		288D084C1F4EA77700849A2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		288D084E1F4EA77700849A2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		288D084F1F4EA77700849A2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		288D08521F4EA77700849A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		288D08541F4EA77700849A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288D08571F4EA77700849A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288D08591F4EA77700849A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288D085A1F4EA77700849A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		288D08611F4EA80600849A2D /* JFTAsyncTextLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTAsyncTextLabel.h; sourceTree = "<group>"; };
+		288D08621F4EA80600849A2D /* JFTAsyncTextLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTAsyncTextLabel.m; sourceTree = "<group>"; };
+		288D08641F4EB06E00849A2D /* JFTTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTTableViewController.h; sourceTree = "<group>"; };
+		288D08651F4EB06E00849A2D /* JFTTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTTableViewController.m; sourceTree = "<group>"; };
+		289732CD1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JFTTextAsyncDrawr.h"; sourceTree = "<group>"; };
+		289732CE1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFTTextAsyncDrawr.m"; sourceTree = "<group>"; };
+		289732D01F5CF26E00A92826 /* JFTTextLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTTextLayout.h; sourceTree = "<group>"; };
+		289732D11F5CF26E00A92826 /* JFTTextLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTTextLayout.m; sourceTree = "<group>"; };
+		289732D31F5CF6AE00A92826 /* JFTCTStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCTStorage.h; sourceTree = "<group>"; };
+		289732D41F5CF6AE00A92826 /* JFTCTStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCTStorage.m; sourceTree = "<group>"; };
+		289732D61F5CFBFD00A92826 /* JFTCTContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCTContainer.h; sourceTree = "<group>"; };
+		289732D71F5CFBFD00A92826 /* JFTCTContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCTContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 			children = (
 				288D084B1F4EA77700849A2D /* AppDelegate.h */,
 				288D084C1F4EA77700849A2D /* AppDelegate.m */,
-				288D084E1F4EA77700849A2D /* ViewController.h */,
-				288D084F1F4EA77700849A2D /* ViewController.m */,
+				288D08641F4EB06E00849A2D /* JFTTableViewController.h */,
+				288D08651F4EB06E00849A2D /* JFTTableViewController.m */,
+				288D08611F4EA80600849A2D /* JFTAsyncTextLabel.h */,
+				288D08621F4EA80600849A2D /* JFTAsyncTextLabel.m */,
+				289732D01F5CF26E00A92826 /* JFTTextLayout.h */,
+				289732D11F5CF26E00A92826 /* JFTTextLayout.m */,
+				289732D61F5CFBFD00A92826 /* JFTCTContainer.h */,
+				289732D71F5CFBFD00A92826 /* JFTCTContainer.m */,
+				289732D31F5CF6AE00A92826 /* JFTCTStorage.h */,
+				289732D41F5CF6AE00A92826 /* JFTCTStorage.m */,
+				289732CD1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.h */,
+				289732CE1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.m */,
 				288D08511F4EA77700849A2D /* Main.storyboard */,
 				288D08541F4EA77700849A2D /* Assets.xcassets */,
 				288D08561F4EA77700849A2D /* LaunchScreen.storyboard */,
@@ -141,7 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288D08501F4EA77700849A2D /* ViewController.m in Sources */,
+				288D08661F4EB06E00849A2D /* JFTTableViewController.m in Sources */,
+				289732D81F5CFBFD00A92826 /* JFTCTContainer.m in Sources */,
+				289732D51F5CF6AE00A92826 /* JFTCTStorage.m in Sources */,
+				289732D21F5CF26E00A92826 /* JFTTextLayout.m in Sources */,
+				288D08631F4EA80600849A2D /* JFTAsyncTextLabel.m in Sources */,
+				289732CF1F5CF23200A92826 /* UIView+JFTTextAsyncDrawr.m in Sources */,
 				288D085B1F4EA77700849A2D /* main.m in Sources */,
 				288D084D1F4EA77700849A2D /* AppDelegate.m in Sources */,
 			);
