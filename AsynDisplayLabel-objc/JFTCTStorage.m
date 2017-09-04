@@ -54,7 +54,6 @@
     
     CGSize suggestFrameSize = CTFramesetterSuggestFrameSizeWithConstraints(_ctFrameSetter, CFRangeMake(0,0), nil, _jft_constraints, nil);
     CGRect rect = {CGPointZero, suggestFrameSize};
-//    rect = CGRectApplyAffineTransform(rect, CGAffineTransformMakeScale(1, -1));
     _cgPath = CGPathCreateWithRect(rect, nil);
     _ctFrame = CTFramesetterCreateFrame(_ctFrameSetter, CFRangeMake(0, 0), _cgPath, nil);
     _ctLines = CTFrameGetLines(_ctFrame);
