@@ -37,7 +37,7 @@
     CGRect frameRect = CGPathGetBoundingBox(CTFrameGetPath(storage.ctFrame));
     CGContextTranslateCTM(ctx , 0, -frameRect.size.height);
     CTFrameDraw(storage.ctFrame, ctx);
-    if (!storage.ctFrame) {
+    if (!storage.ctFrame) { // for debug
         CGContextSaveGState(ctx);
         CGContextSetFillColorWithColor(ctx, [UIColor redColor].CGColor);
         CGContextAddRect(ctx, CGContextGetClipBoundingBox(ctx));
