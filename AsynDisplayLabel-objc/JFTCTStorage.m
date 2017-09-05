@@ -12,10 +12,10 @@
 
 @property (nonatomic, strong) NSMutableAttributedString *jft_internalAttributedString;
 
-@property (readwrite) CTFramesetterRef ctFrameSetter;
-@property (readwrite) CGPathRef        cgPath;
+@property (nonatomic, readwrite) CTFramesetterRef ctFrameSetter;
+@property (nonatomic, readwrite) CGPathRef        cgPath;
 
-@property (readwrite) CTFrameRef       ctFrame;
+@property (nonatomic, readwrite) CTFrameRef       ctFrame;
 @property (nonatomic, readwrite) CFArrayRef       ctLines;
 
 @property (nonatomic, assign)    BOOL             needUpdate;

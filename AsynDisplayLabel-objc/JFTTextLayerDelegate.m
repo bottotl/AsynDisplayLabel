@@ -28,7 +28,7 @@
     [storage jft_updateIfNeeded];
     
     CGContextSaveGState(ctx);
-    
+    NSLog(@"%@",[NSValue valueWithCGRect:CGContextGetClipBoundingBox(ctx)]);
     CGContextSetFillColorWithColor(ctx, [UIColor whiteColor].CGColor);
     CGContextAddRect(ctx, CGContextGetClipBoundingBox(ctx));
     CGContextFillPath(ctx);
