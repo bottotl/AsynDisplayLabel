@@ -27,7 +27,6 @@
     storage.jft_constraints = layout.container.size;
     [storage jft_updateIfNeeded];
     
-    NSLog(@"rect === %@", [NSValue valueWithCGRect:CGContextGetClipBoundingBox(ctx)]);
     CGContextSaveGState(ctx);
     
     CGContextSetFillColorWithColor(ctx, [UIColor whiteColor].CGColor);

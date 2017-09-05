@@ -12,10 +12,10 @@
 
 @property (nonatomic, strong) NSMutableAttributedString *jft_internalAttributedString;
 
-@property (nonatomic, readwrite) CTFramesetterRef ctFrameSetter;
-@property (nonatomic, readwrite) CGPathRef        cgPath;
+@property (readwrite) CTFramesetterRef ctFrameSetter;
+@property (readwrite) CGPathRef        cgPath;
 
-@property (nonatomic, readwrite) CTFrameRef       ctFrame;
+@property (readwrite) CTFrameRef       ctFrame;
 @property (nonatomic, readwrite) CFArrayRef       ctLines;
 
 @property (nonatomic, assign)    BOOL             needUpdate;
@@ -36,7 +36,7 @@
 }
 
 - (void)jft_updateIfNeeded {
-    if (_needUpdate) {
+    if (_needUpdate || !_ctFrameSetter || !_ctFrame) {
         [self jft_update];
     }
 }
@@ -57,6 +57,7 @@
     _cgPath = CGPathCreateWithRect(rect, nil);
     _ctFrame = CTFramesetterCreateFrame(_ctFrameSetter, CFRangeMake(0, 0), _cgPath, nil);
     _ctLines = CTFrameGetLines(_ctFrame);
+    
 }
 
 - (void)dealloc {

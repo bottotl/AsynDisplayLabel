@@ -17,11 +17,11 @@
 
 @property (nonatomic, assign)   CGSize           jft_constraints;
 
-@property (nonatomic, readonly) CTFramesetterRef ctFrameSetter;
-@property (nonatomic, readonly) CGPathRef        cgPath;
+@property (readonly) CTFramesetterRef ctFrameSetter;
+@property (readonly) CGPathRef        cgPath;
 
-@property (nonatomic, readonly) CTFrameRef       ctFrame;
-@property (nonatomic, readonly) CFArrayRef       ctLines;///< CTLines
+@property (readonly)            CTFrameRef       ctFrame;
+@property (readonly) CFArrayRef       ctLines;///< CTLines
 
 - (void)jft_updateIfNeeded;
 - (void)jft_setNeedUpdate;
