@@ -66,6 +66,7 @@
     [super layoutSubviews];
     self.layerDelegate.jft_layout.container.size = self.bounds.size;
     [self.layerDelegate.jft_layout.storage jft_setNeedUpdate];
+    
 }
 
 //- (void)debug_drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {

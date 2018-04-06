@@ -18,6 +18,9 @@
 		289732D21F5CF26E00A92826 /* JFTTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D11F5CF26E00A92826 /* JFTTextLayout.m */; };
 		289732D51F5CF6AE00A92826 /* JFTCTStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D41F5CF6AE00A92826 /* JFTCTStorage.m */; };
 		289732D81F5CFBFD00A92826 /* JFTCTContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 289732D71F5CFBFD00A92826 /* JFTCTContainer.m */; };
+		309499B12072147200FB0D6B /* NSAttributedString+JFTAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 309499B02072147200FB0D6B /* NSAttributedString+JFTAttachment.m */; };
+		30A061CB20722F4C001184BC /* JFTTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A061CA20722F4C001184BC /* JFTTextRunDelegate.m */; };
+		30A061CE20723061001184BC /* NSAttributedString+JFTText.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A061CD20723061001184BC /* NSAttributedString+JFTText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,13 @@
 		289732D41F5CF6AE00A92826 /* JFTCTStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCTStorage.m; sourceTree = "<group>"; };
 		289732D61F5CFBFD00A92826 /* JFTCTContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCTContainer.h; sourceTree = "<group>"; };
 		289732D71F5CFBFD00A92826 /* JFTCTContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCTContainer.m; sourceTree = "<group>"; };
+		309499AF2072147200FB0D6B /* NSAttributedString+JFTAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JFTAttachment.h"; sourceTree = "<group>"; };
+		309499B02072147200FB0D6B /* NSAttributedString+JFTAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JFTAttachment.m"; sourceTree = "<group>"; };
+		30A061C920722F4C001184BC /* JFTTextRunDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTTextRunDelegate.h; sourceTree = "<group>"; };
+		30A061CA20722F4C001184BC /* JFTTextRunDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTTextRunDelegate.m; sourceTree = "<group>"; };
+		30A061CC20723061001184BC /* NSAttributedString+JFTText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JFTText.h"; sourceTree = "<group>"; };
+		30A061CD20723061001184BC /* NSAttributedString+JFTText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JFTText.m"; sourceTree = "<group>"; };
+		30A061CF20723170001184BC /* JFTText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTText.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,8 @@
 				283BD08A1F5E3FFE00E8F6DE /* JFTTextLayerDelegate.m */,
 				289732D01F5CF26E00A92826 /* JFTTextLayout.h */,
 				289732D11F5CF26E00A92826 /* JFTTextLayout.m */,
+				30A061CF20723170001184BC /* JFTText.h */,
+				309499AE20720D3700FB0D6B /* Util */,
 				289732D61F5CFBFD00A92826 /* JFTCTContainer.h */,
 				289732D71F5CFBFD00A92826 /* JFTCTContainer.m */,
 				289732D31F5CF6AE00A92826 /* JFTCTStorage.h */,
@@ -94,6 +106,19 @@
 				288D085A1F4EA77700849A2D /* main.m */,
 			);
 			path = "AsynDisplayLabel-objc";
+			sourceTree = "<group>";
+		};
+		309499AE20720D3700FB0D6B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				309499AF2072147200FB0D6B /* NSAttributedString+JFTAttachment.h */,
+				309499B02072147200FB0D6B /* NSAttributedString+JFTAttachment.m */,
+				30A061C920722F4C001184BC /* JFTTextRunDelegate.h */,
+				30A061CA20722F4C001184BC /* JFTTextRunDelegate.m */,
+				30A061CC20723061001184BC /* NSAttributedString+JFTText.h */,
+				30A061CD20723061001184BC /* NSAttributedString+JFTText.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +195,13 @@
 				289732D81F5CFBFD00A92826 /* JFTCTContainer.m in Sources */,
 				289732D51F5CF6AE00A92826 /* JFTCTStorage.m in Sources */,
 				289732D21F5CF26E00A92826 /* JFTTextLayout.m in Sources */,
+				309499B12072147200FB0D6B /* NSAttributedString+JFTAttachment.m in Sources */,
 				288D08631F4EA80600849A2D /* JFTAsyncTextLabel.m in Sources */,
 				288D085B1F4EA77700849A2D /* main.m in Sources */,
 				283BD08B1F5E3FFE00E8F6DE /* JFTTextLayerDelegate.m in Sources */,
+				30A061CB20722F4C001184BC /* JFTTextRunDelegate.m in Sources */,
 				288D084D1F4EA77700849A2D /* AppDelegate.m in Sources */,
+				30A061CE20723061001184BC /* NSAttributedString+JFTText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
